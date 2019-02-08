@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faIgloo } from '@fortawesome/free-solid-svg-icons';
+
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+library.add(faIgloo)
 
 class App extends Component {
   render() {
