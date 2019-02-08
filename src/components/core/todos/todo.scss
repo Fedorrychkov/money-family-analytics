@@ -1,0 +1,17 @@
+.todo {
+  &__item {
+    display: block;
+  }
+}
+
+
+.item {
+  background-color: #fff !important;
+  transition: all .3s ease-in-out;
+}
+
+.checked {
+  opacity: .7;
+  background-color: transparent !important;
+  text-decoration: line-through !important;
+}
